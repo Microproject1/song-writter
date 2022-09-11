@@ -13,5 +13,7 @@ music.playTone(330, music.beat(BeatFraction.Whole))
 music.playTone(349, music.beat(BeatFraction.Whole))
 music.playTone(262, music.beat(BeatFraction.Whole))
 basic.forever(function () {
-	
+    for (let index = 0; index < 4; index++) {
+        basic.showNumber(0)
+    }
 })
