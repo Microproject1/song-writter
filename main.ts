@@ -1,6 +1,5 @@
-let i_wont_give_up = 0
 let sounds_on = Math.randomBoolean()
-if (i_wont_give_up) {
+if (true) {
     music.playTone(415, music.beat(BeatFraction.Whole))
     music.playTone(370, music.beat(BeatFraction.Whole))
     music.playTone(330, music.beat(BeatFraction.Whole))
