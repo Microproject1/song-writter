@@ -9,5 +9,5 @@ if (sounds_on) {
     music.playTone(262, music.beat(BeatFraction.Whole))
 }
 basic.forever(function () {
-	
+    music.playMelody("- - - - - - - - ", 120)
 })
