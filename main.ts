@@ -1,7 +1,9 @@
-let _1 = 0
-let _2 = 0
-let sounds_on = 0
+let _1: number = []
+let _2: number = []
+let no_of_list: number = []
+let list: number[] = []
 input.onButtonPressed(Button.A, function () {
+    no_of_list = randint(1, list.length - 1)
     if (_1) {
         music.playTone(415, music.beat(BeatFraction.Whole))
         music.playTone(370, music.beat(BeatFraction.Whole))
@@ -51,5 +53,5 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 basic.forever(function () {
-    sounds_on = randint(_1, _2)
+    list = [_1, _2]
 })
